@@ -1,20 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C# Express 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxDumper", "BoxDumper\BoxDumper.csproj", "{295FD8CA-EA83-4902-8BE8-88B000F54B67}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxDumper", "BoxDumper\BoxDumper.csproj", "{E3D79F2E-3680-41E1-A5A5-2FBEDD9A3866}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x86 = Debug|x86
-		Release|x86 = Release|x86
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		AppStore|Any CPU = AppStore|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{295FD8CA-EA83-4902-8BE8-88B000F54B67}.Debug|x86.ActiveCfg = Debug|x86
-		{295FD8CA-EA83-4902-8BE8-88B000F54B67}.Debug|x86.Build.0 = Debug|x86
-		{295FD8CA-EA83-4902-8BE8-88B000F54B67}.Release|x86.ActiveCfg = Release|x86
-		{295FD8CA-EA83-4902-8BE8-88B000F54B67}.Release|x86.Build.0 = Release|x86
+		{E3D79F2E-3680-41E1-A5A5-2FBEDD9A3866}.AppStore|Any CPU.ActiveCfg = AppStore|Any CPU
+		{E3D79F2E-3680-41E1-A5A5-2FBEDD9A3866}.AppStore|Any CPU.Build.0 = AppStore|Any CPU
+		{E3D79F2E-3680-41E1-A5A5-2FBEDD9A3866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3D79F2E-3680-41E1-A5A5-2FBEDD9A3866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3D79F2E-3680-41E1-A5A5-2FBEDD9A3866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3D79F2E-3680-41E1-A5A5-2FBEDD9A3866}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = BoxDumper\BoxDumper.csproj
 	EndGlobalSection
 EndGlobal
